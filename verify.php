@@ -28,9 +28,9 @@ echo "Answer Key: ".$answer_key."\r\n";
 echo "Player in position #".$winner." won!\r\n";
 
 if($winner == $jackpot0) {
-	if($winner == $jackpot1 && $winner == $jackpot2) {
-	   echo "They also won the jackpot.\r\n";
-	}
+   if($winner == $jackpot1 && $winner == $jackpot2) {
+   	echo "They also won the jackpot.\r\n";
+   }
 }
 
 ?>
